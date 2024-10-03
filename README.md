@@ -1,10 +1,11 @@
 Objective	: Analysis on Sales data through an interactive BI Dashboard.
 
 
-Data acquisition :	PUBLIC SOURCE SQL SCRIPT EXECUTED IN MYSQLWorkbench, CONNECTING IT TO POWER BI for data transfer to report.
+Data acquisition :  PUBLIC SOURCE SALES SQL SCRIPT EXECUTED IN MYSQLWorkbench, CONNECTING IT TO POWER BI for data transfer to report.
 
  
-Data transformation	: Deleted duplicates from transaction table ,year & month segregation from date in date table, added normalized amount column to transaction table, removed rows with -1/0 sales amount from transaction table, removed rows from market table  having market name ='NY'
+Data transformation	: Deleted duplicates from transaction table ,year & month segregation from date in date table, added normalized amount column to transaction table, 
+                          removed rows with -1/0 sales amount from transaction table, removed rows from market table  having market name ='NY'
 
  
 	
